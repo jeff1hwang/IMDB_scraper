@@ -1,7 +1,4 @@
----
-layout: post
-title: Blog Post 3 - Web Scraping IMDB for Film Recommendation
----
+# Blog Post 3 - Web Scraping IMDB for Film Recommendation
 
 This is a web scraping project for PIC16B at UCLA. In this project, I wrote a web scraper using Scrapy to collect a list of movies on IMDB to show that which movies share at least one actor with our favorite movie.
 
