@@ -39,10 +39,16 @@ class ImdbSpider(scrapy.Spider):
 
     
     def parse_actor_page(self, response):
+        '''
+        This function parse the actors page,
+        and it yield these actors' and movies' names
+        as a dictionary with two key-value pairs.
+        '''
+        # use css selector to locate the actors' names
         actor_name = response.css("span.itemprop::text").get()
-
+        # use css selector to locate the movies' names
         movie_list = response.css("div.filmo-row b a::text").getall()
-
+        # pairs the actors names and movies names
         for movie in movie_list:
             yield {
                 "actor" : actor_name,
