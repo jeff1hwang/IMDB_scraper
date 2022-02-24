@@ -1,6 +1,6 @@
 # Blog Post 3 - Web Scraping IMDB for Film Recommendation
 
-This is a web scraping project for PIC16B at UCLA. In this project, I wrote a web scraper using Scrapy to collect a list of movies on IMDB to show that which movies share at least one actor with our favorite movie.
+This is a web scraping project at UCLA. In this project, I wrote a web scraper using Scrapy to collect a list of movies on IMDB to show that which movies share at least one actor with our favorite movie.
 
 In this blog post, I will be using the following movie for our web scraper: "Shang-Chi and the Legend of the Ten Rings". Here's the link to the IMDB website: https://www.imdb.com/title/tt9376612/
 
